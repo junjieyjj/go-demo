@@ -8,7 +8,8 @@ import (
 
 func main() {
 
-	// 第二个衍生问题的示例。
+	// 第二个衍生问题的示例
+	// 原子减法
 	num := uint32(18)
 	fmt.Printf("The number: %d\n", num)
 	delta := int32(-3)

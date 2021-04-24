@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+// panic 详情会在控制权传播的过程中，被逐渐地积累和完善，并且，控制权会一级一级地沿着调用栈的反方向传播至顶端。
 func main() {
 	fmt.Println("Enter function main.")
 	caller1()
